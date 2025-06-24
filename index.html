@@ -1,99 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login Page ye</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
     body {
       font-family: Arial, sans-serif;
-      background: #f2f2f2;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      background-color: #f4f4f4;
       margin: 0;
+      padding: 20px;
     }
-
-    .login-container {
-      background: #fff;
-      padding: 2rem;
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      width: 100%;
-      max-width: 400px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-
-    .login-container h2 {
-      text-align: center;
-      margin-bottom: 1.5rem;
+    h1 {
+      color: #333;
     }
-
-    .form-group {
-      margin-bottom: 1rem;
+    p {
+      line-height: 1.6;
     }
-
-    .form-group label {
+    img {
+      width: 150px;
+      border-radius: 50%;
       display: block;
-      margin-bottom: 0.5rem;
-    }
-
-    .form-group input {
-      width: 100%;
-      padding: 0.75rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    .login-btn {
-      width: 100%;
-      padding: 0.75rem;
-      background: #4CAF50;
-      border: none;
-      color: white;
-      font-size: 1rem;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-
-    .login-btn:hover {
-      background: #45a049;
-    }
-
-    .extra-links {
-      text-align: center;
-      margin-top: 1rem;
-    }
-
-    .extra-links a {
-      text-decoration: none;
-      color: #4CAF50;
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
-  <div class="login-container">
-    <h2>Login</h2>
-    <form action="/login" method="POST">
-      <div class="form-group">
-        <label for="username">Username or Email</label>
-        <input type="text" id="username" name="username" required />
-      </div>
-      <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required />
-      </div>
-      <button type="submit" class="login-btn">Login</button>
-      <div class="extra-links">
-        <p><a href="#">Forgot Password?</a></p>
-        <p>Don't have an account? <a href="#">Sign up</a></p>
-      </div>
-    </form>
+  <div class="container">
+    <img src="your-photo.jpg" alt="Your Photo">
+    <h1>Hello, I'm Solis</h1>
+    <p>
+      I'm a Student.
+      I enjoy working on projects involving Art, and I'm always eager to learn more and grow in my field.
+    </p>
+    <p>
+      In my free time, I like to Draw, and I believe in continuous self-improvement and helping others along the way.
+    </p>
   </div>
 </body>
 </html>
